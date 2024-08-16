@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">GptChat</string>
+    <string name="onboarding_spiel">\"Ask questions through our ChatGPT integration and get instant, AI-generated answers. Enjoy accurate and insightful responses tailored to your needs.\"</string>
+    <string name="hello">Hello there!</string>
+    <string name="gpt">ChatGpt</string>
+    <string name="gpt_online">Online</string>
+    <string name="continue_button">Continue</string>
 </resources>

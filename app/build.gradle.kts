@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
     alias(libs.plugins.compose.compiler)
+    alias(libs.plugins.kotlin.serialization)
     id("com.google.devtools.ksp")
 }
 
@@ -82,5 +83,8 @@ dependencies {
 
     //Compose Navigation
     implementation(libs.androidx.compose.navigation)
+
+    //Kotlinx Serialization
+    implementation(libs.kotlinx.serialization.json)
 
 }
