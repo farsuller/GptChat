@@ -16,14 +16,14 @@ import androidx.compose.ui.unit.dp
 import com.solodev.gptchat.ui.theme.GptChatTheme
 
 @Composable
-fun SenderItemCard(
+fun SenderMessageItem(
     modifier: Modifier = Modifier,
     message: String = ""
 ) {
     Surface(
         modifier = modifier,
         color = MaterialTheme.colorScheme.primary,
-        shape = RoundedCornerShape(topStart = 25.dp, bottomEnd = 25.dp, bottomStart = 25.dp)
+        shape = RoundedCornerShape(topStart = 25.dp, topEnd = 25.dp, bottomStart = 25.dp)
     ) {
         Text(
             modifier = Modifier
@@ -41,7 +41,7 @@ fun SenderItemCard(
 fun MessengerItemPreview() {
 
     GptChatTheme(dynamicColor = false) {
-        SenderItemCard(
+        SenderMessageItem(
             modifier = Modifier.wrapContentSize(),
             "Hello World!"
         )
